@@ -1,4 +1,5 @@
 ﻿body{
+    display: grid;
     overflow-x: clip;
     margin: 0px;
 }
@@ -58,6 +59,7 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 100px;
     position: relative;
+    top: 25px;
     align-self: center;
     width: 900px;
     height: 400px;
