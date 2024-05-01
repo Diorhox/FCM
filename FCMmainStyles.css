@@ -1,0 +1,224 @@
+﻿body{
+    overflow-x: clip;
+    margin: 0px;
+}
+.header {
+    background: #d9d9d9;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.nav-buttons {
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: fit-content;
+    left: 30px;
+    top: 10px;
+}
+
+.lajme {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-20, .frame-19, .frame-21, .frame-22 {
+    background: #4d4d4d;
+    border-radius: 2px;
+    border: none;
+    padding: 0px 10px;
+    width: fit-content;
+    height: 28px;
+    box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame-19 a, .frame-20 a, .frame-21 a, .frame-22 a {
+    position: relative;
+    text-decoration: none;
+}
+
+.bileta, .ekipa-jon-stadiumi, .ranglista-loj-rat {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#container1 {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    left: 0px;
+    background-color: #eee9e9;
+}
+#bttn-right {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 72px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+#bttn-right:hover{
+    cursor: pointer;
+}
+#bttn-right img{
+    position: relative;
+    transform: rotate(-90deg);
+    left: -10px;
+    width: 52px;
+    height: 30px;
+}
+#bttn-left {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 72px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+#bttn-left:hover{
+    cursor: pointer;
+}
+#bttn-left img{
+    position: relative;
+    transform: rotate(90deg);
+    left: -10px;
+    width: 52px;
+    height: 30px;
+}
+
+#subcontainer1 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    width: fit-content;
+    height: 450px;
+    transition-duration: 1s;
+}
+#article1 {
+    position: relative;
+    margin: 0px 50px 0px 0px;
+    height: 450px;
+    width: 800px;
+    background-color: #cbc2c2;
+    border-radius: 5px;
+    transition-duration: 0s;
+}
+#article2 {
+    position: relative;
+    margin: 0px 50px 0px 0px;
+    height: 225px;
+    width: 400px;
+    background-color: #cbc2c2;
+    border-radius: 5px;
+    transition-duration: 0s;
+}
+#article3 {
+    position: relative;
+    margin: 0px 50px 0px 0px;
+    height: 225px;
+    width: 400px;
+    background-color: #cbc2c2;
+    border-radius: 5px;
+    transition-duration: 0s;
+}
+#article4 {
+    position: relative;
+    margin: 0px 50px 0px 0px;
+    height: 225px;
+    width: 400px;
+    background-color: #cbc2c2;
+    border-radius: 5px;
+    transition-duration: 0s;
+}#article5 {
+    position: relative;
+    margin: 0px 50px 0px 0px;
+    height: 225px;
+    width: 400px;
+    background-color: #cbc2c2;
+    border-radius: 5px;
+    transition-duration: 0s;
+}
+#articleimage {
+    border-radius: inherit;
+    width: inherit;
+    height: inherit;
+
+}
+
+/*Static articles*/
+
+
+#container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+    height: fit-content;
+    background-color:#eee9e9 ;
+}
+
+#staticarticle1, #staticarticle2, #staticarticle3, #staticarticle4,
+ #staticarticle5, #staticarticle6{
+    display: flex;
+    width: 380px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#staticarticleimg{
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+    height: 170px;
+    width: 170px;
+    background-color: #cbc2c2;
+}
+#staticarticleimg img{
+    position: relative;
+    border-radius: inherit;
+    height: inherit;
+    width: inherit;
+}
+#staticarticletext{
+    overflow: clip;
+    position: relative;
+    margin: 5px;
+    width: 190px;
+    height: 170px;
+}
+#staticarticletext h3{
+    overflow: clip;
+    position: relative;
+    text-align: left;
+    margin: 0 0 5px 0;
+}
+#staticarticletext h3 a{
+    border-radius: 5px;
+    background-color:#d9d9d9;
+    text-decoration: underline;
+    color: black;
+}
+#staticarticletext p{
+    position: relative;
+    text-align: left;
+    margin: 0;
+}

@@ -1,0 +1,336 @@
+﻿body {
+    font-family: 'Inter', sans-serif;
+
+}
+/*Header*/
+.mac-book-air-3 {
+    box-sizing: border-box;
+    display: grid;
+}
+.mac-book-air-3 {
+    background: #ffffff;
+    height: 832px;
+    position: relative;
+    overflow: hidden;
+}
+.header {
+    background: #d9d9d9;
+    width: 1280px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.nav-buttons {
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.frame-19 {
+    background: #4d4d4d;
+    border-radius: 10px 2px 2px 10px;
+    padding: 7px 18px 7px 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.lajme {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+}
+.frame-20 {
+    background: #4d4d4d;
+    border-radius: 2px;
+    padding: 7px 19px 7px 19px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.bileta, .ekipa-jon-stadiumi, .ranglista-loj-rat {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+}
+.frame-21 {
+    background: #4d4d4d;
+    border-radius: 2px;
+    padding: 7px 10px 7px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.frame-22 {
+    background: #4d4d4d;
+    border-radius: 2px 10px 10px 2px;
+    padding: 7px 16px 7px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+/*Main Content*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+    position: relative;
+    align-self: center;
+    width: 900px;
+    height: 400px;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    justify-self: center;
+    padding: 50px;
+}
+.biletaimg {
+    display: grid;
+    align-self: flex-start;
+    width: 400px;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #4d4d4d;
+}
+.biletaimg img{
+    align-self:center;
+    justify-self: center;
+    width: 380px;
+    height: 380px;
+    border-radius: 15px;
+}
+.biletainfo{
+    display:grid;
+    grid-template-rows: 110px 80px 100px; /* 110 80 80 100*/
+    max-height: 400px;
+    align-content: center;
+}
+.match-info {
+    display: grid;
+    grid-template-columns: 1fr 80px;
+    border-radius: 25px;
+    width: 100%;
+    height: 82.5px;
+    background-color: #4d4d4d;
+}
+.personid {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 75%;
+    background-color: #4d4d4d;
+    border-radius: 20px;
+}
+.personid2 {
+    display: none; /*Display: grid*/
+    align-self: center;
+    width: 100%;
+    height: 75%;
+    background-color: #4d4d4d;
+    border-radius: 20px;
+}
+.personid3 {
+    display: none; /*Display: grid*/
+    align-self: center;
+    width: 100%;
+    height: 75%;
+    background-color: #4d4d4d;
+    border-radius: 20px;
+}
+.buyticket {
+    display: grid;
+    align-self: end;
+    border-radius: 25px;
+    width: 100%;
+    height: 75%;
+    background: rgb(50, 184, 232);
+    border: none;
+    box-shadow: 3px 3px 2px rgba(5, 18, 23, 0.5);
+    transition: 0s;
+}
+.buyticket:active {
+    border: none;
+    transform: translate( 2px, 2px);
+    box-shadow: 3px 3px 3px 1px rgba(5, 18, 23, 0.5) inset;
+}
+.SM-info{
+    display:grid;
+    grid-template-rows: 1fr 5px 25px 25px;
+}
+.SM-info2 {
+    display: none;
+    grid-template-rows: 1fr 5px 25px 25px;
+}
+.SM-info3 {
+    display: none;
+    grid-template-rows: 1fr 5px 25px 25px;
+}
+#line{
+    background-color: #d9d9d9;
+    justify-self: end; 
+    width: 95%;
+    border-radius:10px;
+}
+#FC-match {
+    justify-self:center;
+    align-self:center;
+    transform: translate(5px);
+}
+#FC-match p{
+    margin:0px;
+    padding:0px;
+    font-size: 20px;
+    color: white;
+
+}
+#match-date, #match-stadium{
+    justify-self:center;
+    align-self:center;
+    transform: translate(5px,0)
+}
+#match-date p, #match-stadium p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: white;
+}
+#SM-Button {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    background: rgb(50, 184, 232);
+    border: none;
+    border-radius: 12.5px;
+    height: 50px;
+    width: 50px;
+    padding:0px;
+    box-shadow: 3px 3px 2px rgba(5, 18, 23, 0.5);
+    transition: 0s;
+}
+.bttimg{
+    align-self:center;
+    justify-self: center;
+}
+#SM-Button:focus {
+    border: none;
+    width: 45px;
+    height: 45px;
+    transform: translate( 2px, 2px);
+    box-shadow: 3px 3px 3px 1px rgba(5, 18, 23, 0.5) inset;
+}
+.imputname{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 50px;
+    grid-column-gap: 20px;
+    padding: 10px;
+    width: fit-content;
+}
+.input {
+    align-self: center;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #d9d9d9;
+    font-size: 22px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+.input-2 {
+    align-self: center;
+    font-size: 22px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: #d9d9d9;
+}
+.addTicketBttn, .addTicketBttn2, .addTicketBttn3 {
+    align-self: center;
+    border-radius: 0px 10px 10px 0px;
+    background: rgb(50, 184, 232);
+    height: 30px;
+    width: 100%;
+    border: none;
+    display: grid;
+    box-shadow: 3px 3px 2px rgba(5, 18, 23, 0.5);
+    transition: 0s;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.addTicketBttn2 p, .addTicketBttn3 p {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: -5px;
+}
+.addTicketBttn p{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: -2px;
+
+}
+.addTicketBttn:active, .addTicketBttn2:active, .addTicketBttn3:active {
+    border: none;
+    transform: translate( 2px, 2px);
+    box-shadow: 3px 3px 3px 1px rgba(5, 18, 23, 0.5) inset;
+}
+#dropdown {
+    display: none;
+    position: absolute;
+    top: 190px;
+    right: 50px; 
+    width: 360px;
+    height: fit-content;
+    background-color:#fff;
+    border-radius: 25px;
+    padding:0px 20px;
+    z-index:1;
+    
+    
+}
+#dropdown p {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+    #dropdown #p3 {
+        border-bottom: none;
+        margin-bottom:2px;
+    }
